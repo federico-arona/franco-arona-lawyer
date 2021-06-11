@@ -535,6 +535,10 @@ body {
   padding-bottom: 120px;
 }
 
+p.big {
+  font-size: 25px;
+}
+
 .section-form .btn {
   margin-top: 40px;
 }
