@@ -96,13 +96,13 @@ h4 {
 
 .btn-fill {
   color: #fff;
-  background-color: #212121;
+  background-color: #b68d40;
 }
 
 .btn-border {
   background-color: transparent;
-  color: #212121;
-  border: 1px solid #212121;
+  color: #ffffff;
+  border: 1px solid #b68d40;
 }
 
 .btn-fill:hover,
@@ -192,7 +192,7 @@ body {
 .navbar-nav > li > a {
   padding: 5px 0;
   font-weight: 600;
-  color: #212121;
+  color: #ffffff;
   text-transform: uppercase;
   border-bottom: 2px solid transparent;
   transition: border-color 0.25s ease-in-out;
@@ -215,7 +215,7 @@ body {
 .nav > li > a:hover,
 .nav > li.active > a {
   background-color: transparent;
-  border-bottom: 2px solid #212121;
+  border-bottom: 2px solid #ffffff;
 }
 
 .nav > li > a:focus {
@@ -225,7 +225,7 @@ body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/hero-c.jpg) no-repeat center / cover;
+  background: url(../img/hero-c-d.jpg) no-repeat center / cover;
   height: 100%;
   width: 100%;
   min-height: 700px;
@@ -259,12 +259,14 @@ body {
   font-weight: 700;
   margin: 0 0 15px;
   text-transform: uppercase;
+  color: whitesmoke;
 }
 
 .job-title {
   font-size: 22px;
   margin-bottom: 30px;
   line-height: 1;
+  color: whitesmoke;
 }
 
 .hero img {
@@ -289,6 +291,7 @@ body {
   font-size: 36px;
   margin: 0;
   text-transform: uppercase;
+  color: rgb(35, 0, 0);
 }
 
 .img-lines {
@@ -334,7 +337,7 @@ body {
 
 .section-services:before {
   content: "";
-  background: url(../img/grey.jpg) no-repeat fixed center / cover;
+  background: url(../img/red.jpg) no-repeat fixed center / cover;
   width: 100%;
   height: 400px;
   position: absolute;
@@ -347,7 +350,7 @@ body {
   width: 100%;
   height: 400px;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(27, 27, 27, 0.5);
   top: 0;
   left: 0;
   z-index: 0;
@@ -501,7 +504,7 @@ body {
 
 /* Section: Counters */
 .section-counters {
-  background: url(../img/grey.jpg) no-repeat fixed center / cover;
+  background: url(../img/red.jpg) no-repeat fixed center / cover;
   width: 100%;
   padding: 100px 0;
   position: relative;
